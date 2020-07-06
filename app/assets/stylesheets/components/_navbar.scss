@@ -1,11 +1,11 @@
 .nav-link-main {
-  color: $hero-color;
+  color: $success;
   font-size: 30px;
   font-weight: 900;
   transition: all 0.4s ease;
   &:hover{
     text-decoration: none;
-    color: $info;
+    color: $lord;
     transition: all 0.4s ease;
   }
 }
@@ -13,20 +13,20 @@
 .nav-link-min {
   font-size: 20px;
   font-weight: 800;
-  color: $hero-color;
+  color: $success;
   padding: 12px;
-  box-shadow: 0 0 0 0px $hero-color inset;
+  box-shadow: 0 0 0 0px $success inset;
   transition: all 0.4s ease;
   &:hover{
     text-decoration: none;
-    box-shadow: 0 -8px $hero-color inset;
+    box-shadow: 0 -8px $success inset;
   }
 }
 
 .nav-link-one {
-  color: $hero-color;
+  color: $success;
   &:hover{
-    color: white;
+    color: $success;
   }
 }
 
@@ -34,10 +34,10 @@
   color: white;
   padding: 12px 16px;
   text-decoration: none;
-  box-shadow: 0 54px $hero-color inset;
+  box-shadow: 0 54px $success inset;
   transition: all 0.4s ease;
   &:hover{
-    box-shadow: 0 0 0 5px $hero-color inset;
+    box-shadow: 0 0 0 5px $success inset;
     color: $hero-color;
     transition: all 0.4s ease;
   }
