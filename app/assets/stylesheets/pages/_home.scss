@@ -38,3 +38,14 @@ i{
   color: $lord;
 }
 }
+
+#home-arrow {
+  padding-top: 10px;
+  font-size: 5em;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
