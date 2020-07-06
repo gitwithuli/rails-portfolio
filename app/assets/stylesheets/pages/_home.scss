@@ -24,5 +24,17 @@ overflow-x: hidden;
 }
 
 #homepage-main-greet {
-
+h1{
+font-weight: 900;
+font-size: 100px;
+}
+p{
+  font-weight: 700;
+  font-size: 56px;
+}
+i{
+  margin-top: 40px;
+  font-size: 80px;
+  color: $lord;
+}
 }
