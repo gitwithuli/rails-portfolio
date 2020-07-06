@@ -7,6 +7,34 @@ margin: 0px;
 overflow-x: hidden;
 }
 
-#introduction {
-  height: 8em;
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+#homepage-main-greet {
+h1{
+font-weight: 900;
+font-size: 100px;
+}
+p{
+  font-weight: 700;
+  font-size: 56px;
+}
+i{
+  margin-top: 40px;
+  font-size: 80px;
+  color: $lord;
+}
 }
