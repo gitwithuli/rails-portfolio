@@ -1,3 +1,14 @@
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+
+.nav-item {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
 .nav-link-main {
   color: $success;
   font-size: 30px;
@@ -5,7 +16,7 @@
   transition: all 0.4s ease;
   &:hover{
     text-decoration: none;
-    color: $lord;
+    color: $success;
     transition: all 0.4s ease;
   }
 }
@@ -38,7 +49,7 @@
   transition: all 0.4s ease;
   &:hover{
     box-shadow: 0 0 0 5px $success inset;
-    color: $hero-color;
+    color: $success;
     transition: all 0.4s ease;
   }
 }

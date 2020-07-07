@@ -1,0 +1,17 @@
+
+.btn-lg-rounded-primary{
+  background-color: $success;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 46px;
+  border-radius: 50px;
+}
+
+.btn-lg-rounded-primary:hover{
+  background-color: #0DBF6C;
+  color: white;
+  text-decoration: none;
+}
