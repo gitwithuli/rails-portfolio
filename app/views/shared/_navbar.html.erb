@@ -13,10 +13,10 @@
         <%= link_to 'English', root_path(locale: :en), class: 'nav-link-min nav-link-one' %>
       </li>
       <li class="nav-item">
-          <%= link_to 'ABOUT', about_path, class: 'nav-link-min nav-link-one' %>
+          <a class="nav-link-min nav-link-one" href="<%= about_path %>"> <%= t 'nav-about' %></a>
       </li>
       <li class="nav-item">
-          <%= link_to 'CONTACT', contact_path, class: 'nav-link-min nav-link-two ' %>
+        <a class="nav-link-min nav-link-two" href="<%= contact_path %>"> <%= t 'nav-contact' %></a>
       </li>
     </ul>
       </div>

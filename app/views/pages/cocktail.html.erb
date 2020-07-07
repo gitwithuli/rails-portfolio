@@ -1,6 +1,6 @@
 <div class="small-cover-banner-center hero-section" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dbjtqhjxi/image/upload/v1594120359/jon-cellier-jbeW1fG79HI-unsplash_colcsn.jpg); background-position: left 750px bottom 500px;">
   <div class="container text-center col-12 col-lg-4 py-5">
-    <h1 class="text-white">A permanent storage for cocktail recipes</h1>
+    <h1 class="text-white"><%= t 'project-case-cocktail' %></h1>
   </div>
 </div>
 
@@ -9,7 +9,7 @@
     <div class="row justify-content-center">
       <div class="col-12 col-lg-11 text-center">
         <h1 class="text-success font-weight-bolder headline">GalataBar</h1>
-        <h3 class="text-success font-weight-bold bodyline">Ruby | Ruby on Rails | Heroku | CSS | HTML | PostgreSQL | WebSockets | Bootstrap </h3>
+        <h3 class="text-success font-weight-bold bodyline">Ruby | Ruby on Rails | Heroku | CSS | HTML | PostgreSQL | Bootstrap </h3>
       </div>
     </div>
   </div>
@@ -20,8 +20,8 @@
     <div class="col-12 col-lg-8 mb-4 d-flex justify-content-center align-items-center">
       <%= image_tag "https://res.cloudinary.com/dbjtqhjxi/image/upload/v1594120976/helena-yankovska-sJOy9pveFbU-unsplash_yo1i0z.jpg",class: "w-100" %>
     </div>
-    <h3 class="text-center col-12 col-lg-8 mb-3" style="color: #0DBF6C"><b>#OurHoodTeam</b></h3>
-    <p class="text-center col-12 col-lg-8">It was an amazing experience to work and contribute in an international team. We were so eager to learn and build good websites. It was really hard after Corona Virus epidemic but that just gave us a remote experience as well.</p>
+    <h3 class="text-center col-12 col-lg-8 mb-3" style="color: #0DBF6C"><b><%= t 'project-case-cocktail-info' %></b></h3>
+    <p class="text-center col-12 col-lg-8"><%= t 'project-case-cocktail-p1' %></p>
   </div>
 </div>
 
@@ -33,12 +33,11 @@
     </div>
     <div class="col-12 col-lg-6 d-flex flex-column justify-content-between">
       <div class="mt-3 mt-lg-0 text-center text-lg-left">
-        <h4 style="color: #0DBF6C"><b>Eat-Code-Sleep-Repeat</b></h4>
-        <p>This was our motto for 9 weeks and it has changed us to keep this motto for life. We have spent 450 hours to code and 260 hours of that were remote thanks to Covid-19. It was fascinated to be able to built this project from stratch in just two weeks. It was fascinated to see how remote teams can be working with pair programming and how much can be done with the distributed version-control systems like git. </p>
-      <%= link_to 'SEE PROJECT', 'https://galata-bar.herokuapp.com/', target: 'blank', class: 'btn btn-lg-rounded-primary ' %>
-      <%= link_to 'THE CODE', 'https://github.com/gitwithuli/rails-mister-cocktail', target: 'blank', class: 'btn btn-lg-rounded-primary' %>
+        <h4 style="color: #0DBF6C"><b><%= t 'project-case-cocktail-head' %> </b></h4>
+        <p><%= t 'project-case-cocktail-p2' %> </p>
+      <a class="btn btn-lg-rounded-primary" target= "_blank" href="https://galata-bar.herokuapp.com/"> <%= t 'see-project' %></a>
+      <a class="btn btn-lg-rounded-primary" target= "_blank" href="https://github.com/gitwithuli/rails-mister-cocktail"> <%= t 'see-code' %></a>
       </div>
-
     </div>
   </div>
 </div>
