@@ -1,7 +1,7 @@
   <div class="bck-light-grey p-3 h-100 bg-success">
     <div class="container text-center mt-3 mt-lg-5 pt-5", id="homepage-main-greet">
-      <h1 class='mb-4 text-white pt-5' ><b>Hi, I'm Ulas.</b></h1>
-      <p class="mb-4 text-white pt-3 pb-1">Part-time linguist and a full-time software developer.</p>
+      <h1 class='mb-4 text-white pt-5' ><b><%= t 'greet' %></b></h1>
+      <p class="mb-4 text-white pt-3 pb-1"><%= t 'greet-p' %></p>
       <!-- <a class="btn btn-lg-rounded-primary border border-dark" href="#" style="margin-bottom: 40px">Tell me more ➜</a> -->
       <a class="fas fa-chevron-down bounce pt-3" id="home-arrow" href="#projects"></a>
       </div>
@@ -9,8 +9,8 @@
 
 
   <div class="container text-center p-3 mt-5", id="homepage-main-container">
-    <h1 class="mb-4" style='color: #0DBF6C'><b>My Projects</b></h1>
-    <p class="mb-0">Nothing amazing so far but stay tuned...</p>
+    <h1 class="mb-4" style='color: #0DBF6C'><b><%= t "projects" %></b></h1>
+    <p class="mb-0"><%= t 'projects-p' %></p>
   </div>
 
   <div class="px-5 mb-5 pb-5" id="projects">

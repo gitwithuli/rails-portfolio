@@ -1,0 +1,13 @@
+tr:
+
+
+  pages:
+    home:
+  greet: "Merhaba, ben Ulaş."
+  greet-p: "Yarı-zamanlı dilbilimci ve tam zamanlı bir yazılım geliştirici."
+  projects: "Projelerim"
+  projects-p: "İnanılmaz bir projem henüz yok ama çok yakında..."
+
+ components:
+    button:
+      see-project: "PROJEYİ GÖR"
