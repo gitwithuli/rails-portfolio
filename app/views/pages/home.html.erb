@@ -1,16 +1,15 @@
   <div class="bck-light-grey p-3 h-100 bg-success">
     <div class="container text-center mt-3 mt-lg-5 pt-5", id="homepage-main-greet">
-      <h1 class='mb-4 text-white pt-5' ><b>Hi, I'm Ulas.</b></h1>
-      <p class="mb-4 text-white pt-3 pb-1">Part-time linguist and a full-time software developer.</p>
-      <!-- <a class="btn btn-lg-rounded-primary border border-dark" href="#" style="margin-bottom: 40px">Tell me more ➜</a> -->
+      <h1 class='mb-4 text-white pt-5' ><b><%= t 'greet' %></b></h1>
+      <p class="mb-4 text-white pt-3 pb-1"><%= t 'greet-p' %></p>
       <a class="fas fa-chevron-down bounce pt-3" id="home-arrow" href="#projects"></a>
       </div>
     </div>
 
 
   <div class="container text-center p-3 mt-5", id="homepage-main-container">
-    <h1 class="mb-4" style='color: #0DBF6C'><b>My Projects</b></h1>
-    <p class="mb-0">Nothing amazing so far but stay tuned...</p>
+    <h1 class="mb-4" style='color: #0DBF6C'><b><%= t "projects" %></b></h1>
+    <p class="mb-0"><%= t 'projects-p' %></p>
   </div>
 
   <div class="px-5 mb-5 pb-5" id="projects">
@@ -19,22 +18,22 @@
         <%= image_tag "https://res.cloudinary.com/dbjtqhjxi/image/upload/v1593983652/Kazam_screenshot_00011_n8x6pa.png", class: "info-card-img w-100 mb-4" %>
         <h4 class='mb-4' style="color: #0DBF6C"><b>JoinOurHood</b></h4>
         <p>Tell us about your shopping preferences and we will customize the best gift box to you.</p>
-        <%= link_to 'SEE PROJECT', 'http://www.joinourhood.com/', target: 'blank', class: 'btn btn-lg-rounded-primary mb-2' %>
-        <%= link_to 'CASE STUDY', hood_path, class: 'btn btn-lg-rounded-primary mb-2' %>
+        <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="http://www.joinourhood.com/"> <%= t 'see-project' %></a>
+        <a class="btn btn-lg-rounded-primary mb-2" href="<%= hood_path %>"> <%= t 'see-case' %></a>
       </div>
       <div class="info-card m-4 col-12 col-lg-3">
         <%= image_tag "https://res.cloudinary.com/dbjtqhjxi/image/upload/v1593939363/Kazam_screenshot_00008_cacapb.png", class: "info-card-img w-100 mb-4" %>
         <h4 class='mb-4' style="color: #0DBF6C"><b>Galata-Bar</b></h4>
         <p>Pick one of our three monthly plans and receive unique products from Istanbul's best local shops.</p>
-        <%= link_to 'SEE PROJECT', 'https://galata-bar.herokuapp.com/', target: 'blank', class: 'btn btn-lg-rounded-primary mb-2' %>
-        <%= link_to 'CASE STUDY', cocktail_path, class: 'btn btn-lg-rounded-primary mb-2' %>
+        <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="https://galata-bar.herokuapp.com/">  <%= t 'see-project' %></a>
+        <a class="btn btn-lg-rounded-primary mb-2" href="<%= cocktail_path %>"> <%= t 'see-case' %></a>
       </div>
       <div class="info-card m-4 col-12 col-lg-3">
         <%= image_tag "https://res.cloudinary.com/dbjtqhjxi/image/upload/v1594054895/The-Best-Cryptocurrency-Exchange-Platforms_mvvkyq.jpg", class: "info-card-img w-100 mb-4" %>
         <h4 class='mb-4' style="color: #0DBF6C"><b>Ethereum based Crypto-exchange</b></h4>
         <p>The most unique Istanbul stores delivered at an address of your preference.</p>
-        <%= link_to 'SEE PROJECT', 'http://www.joinourhood.com/', target: 'blank', class: 'btn btn-lg-rounded-primary mb-2' %>
-        <%= link_to 'CASE STUDY', exchange_path, class: 'btn btn-lg-rounded-primary mb-2' %>
+        <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="https://galata-bar.herokuapp.com/">  <%= t 'see-project' %></a>
+        <a class="btn btn-lg-rounded-primary mb-2" href="<%= cocktail_path %>"> <%= t 'see-case' %></a>
       </div>
     </div>
   </div>
