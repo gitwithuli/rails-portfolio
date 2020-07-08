@@ -7,8 +7,18 @@ margin: 0px;
 overflow-x: hidden;
 }
 
-.bounce {
+#home-arrow {
+  transform-origin: 50% 50%;
+  transform: translate3d(-50%, -50%, 0);
   animation: bounce 2s infinite;
+  padding-top: 10px;
+  font-size: 5em;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
 }
 
 @keyframes bounce {
@@ -32,20 +42,5 @@ p{
   font-weight: 700;
   font-size: 56px;
 }
-i{
-  margin-top: 40px;
-  font-size: 80px;
-  color: $lord;
-}
 }
 
-#home-arrow {
-  padding-top: 10px;
-  font-size: 5em;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  &:hover{
-    text-decoration: none;
-  }
-}
