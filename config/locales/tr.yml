@@ -1,8 +1,4 @@
 tr:
-
-
-  pages:
-    home:
   greet: "Merhaba, ben Ulaş."
   greet-p: "Yarı-zamanlı dilbilimci ve tam zamanlı bir yazılım geliştirici."
   projects: "Projelerim"
@@ -10,6 +6,7 @@ tr:
   see-project: "PROJEYİ GÖR"
   see-case: "PROJE ANALİZİ"
   see-code: "KOD"
+  nav-name: "ULAŞ"
   nav-contact: "İLETİŞİM"
   nav-about: "HAKKIMDA"
   project-case-hood: "İstanbul için tutkulu, çok kültürlü bir ekiple final haftası projemiz."
@@ -24,7 +21,10 @@ tr:
   project-case-cocktail-p2: "LeWagon İSTANBUL Kod Okulu'nun Türkiye'deki ilk kursuna katılana kadar kodlama kursunun bu kadar zor olabileceğini düşünmüyordum.Önceden az çok, online kurslarla deneyimim vardı ama kurs gerçekten hayatımı değiştirdi. Sonsuza dek öğrenme şeklimi değiştirdi. GalataBar, host servisi olarak bulut hosting servisi kullanma şansı bulduğum ilk projemdi. Bu deneyim bulut hosting gerçekten kolay ve kafa rahatlığı sağladığına karar vermemi sağladı. Bootstrap ızgara sistemini öğrenmek ve uygulamak açısından da çok eğiticiydi. Gelecek bu projenin daha gelişmiş versiyonlarını yapmayı planlıyorum."
   me-name: "Ulaş Şavkın"
   me-intro: "Genç, kişisel eğitim ve kişisel gelişime tutkulu. Merkezsiz sistemler, paralar ve açık uçlu projelerle yakından ilgili."
-  me-head: ""Deneyim, insanların hatalarına verdikleri isimdir." – Oscar Wilde"
-  me-p2: "Hey"
-  me-gif: "Kod"
+  me-gif: "Kodlama"
   me-gif-p: "Kendimi ifade etmenin yeni yolu kodlama. Fikirlerimi kendi başıma gerçekliğe dönüştürebilmekten dolayı çok mutluyum."
+  me-head: "Deneyim, insanların hatalarına verdikleri isimdir. – Oscar Wilde"
+  me-head-p: "LeWagon'un inanılmaz müfredatı sayesinde CRUD (creat-read-update-delete) yöntemlerini tanıma, veritabanları ve hatta matematik yeteneklerimi geliştirme fırsatı yakaladım. Bulut servisleri kullanma ve ödeme sistemleri kurma şansı buldum. Her gün kodlamaya devam ediyorum ve yeteneklerimi geliştirmeye kendimi adamış durumdayım."
+  contact-head: "Beraber çalışalım."
+  contact-p: "Bana ulaşırsanız detaylı özgeçmişimi paylaşmaktan mutluluk duyarım."
+  contact-button: "Whatsapp Mesajı"

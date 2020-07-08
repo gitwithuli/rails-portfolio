@@ -1,9 +1,4 @@
 en:
-
-
-
-  pages:
-    home:
   greet: "Hi, I'm Ulas."
   greet-p: "Part-time linguist and a full-time software developer."
   projects: "My Projects"
@@ -11,6 +6,7 @@ en:
   see-project: "SEE PROJECT"
   see-case: "CASE STUDY"
   see-code: "THE CODE"
+  nav-name: "ULAS"
   nav-contact: "CONTACT"
   nav-about: "ABOUT"
   project-case-hood: "A final week project with a multi-cultural team passionate about Istanbul."
@@ -25,7 +21,10 @@ en:
   project-case-cocktail-p2: "When I decide to join the first ever batch of LeWagon ISTANBUL Coding Bootcamp I haven't tought it would be this challenging. I had some to little experience with coding prior the bootcamp but it was really life-chaging. It has changed the way I learn. This was the first project that I've found a chance to use Heroku as a Platform as a Service (PaaS). I decided that cloud hosting is really useful and peace of mind option. It was also very educating about Bootstrap grid layout. I'm planning of doing more advanced alike projects. "
   me-name: "Ulas Savkin"
   me-intro: "I'm young, passionate about self-education and self-improvement. I'm very interested in decentralized systems, decentralize money and open-source."
-  me-head: "“Experience is the name everyone gives to their mistakes.” – Oscar Wilde"
-  me-p2: "hey"
   me-gif: "Code"
   me-gif-p: "It's my new way to express myself. I'm really happy to being able to turn my ideas into reality by myself."
+  me-head: "Experience is the name everyone gives to their mistakes. – Oscar Wilde"
+  me-head-p: "Thanks to LeWagon's amazing curriculum I have found chance to get familiar with CRUD and improved my database skills even math skills. I have chance to use cloud services and I have learnt to setup payment gateways. I'm coding everyday and I'm dedicated to improve these skills."
+  contact-head: "Let's create something together."
+  contact-p: "Contact me and I will be more than happy to share my detailed resume."
+  contact-button: "Whatsapp Message"

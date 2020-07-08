@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col-12 col-lg-11 text-center">
         <h1 class="text-success font-weight-bolder headline"><%= t 'me-name' %></h1>
-        <h3 class="text-success font-weight-bold bodyline"> I'm young, passionate about self-education and self-improvement. I'm very interested in decentralized systems, decentralize money and open-source. </h3>
+        <h3 class="text-success font-weight-bold bodyline"> <%= t 'me-intro' %> </h3>
       </div>
     </div>
   </div>
@@ -14,8 +14,8 @@
     <div class="col-12 col-lg-8 mb-4 d-flex justify-content-center align-items-center">
       <img src="https://res.cloudinary.com/dbjtqhjxi/image/upload/v1594128400/code_gkoqll.gif"  style="height:350px;" alt="code gif">
     </div>
-    <h3 class="text-center col-12 col-lg-8 mb-3" style="color: #0DBF6C"><b>#OurHoodTeam</b></h3>
-    <p class="text-center col-12 col-lg-8">It was an amazing experience to work and contribute in an international team. We were so eager to learn and build good websites. It was really hard after Corona Virus epidemic but that just gave us a remote experience as well.</p>
+    <h3 class="text-center col-12 col-lg-8 mb-3" style="color: #0DBF6C"><b><%= t 'me-gif' %></b></h3>
+    <p class="text-center col-12 col-lg-8"><%= t 'me-gif-p' %></p>
   </div>
 </div>
 
@@ -27,9 +27,9 @@
     </div>
     <div class="col-12 col-lg-6 d-flex flex-column justify-content-between">
       <div class="mt-3 mt-lg-0 text-center text-lg-left">
-        <h4 style="color: #0DBF6C"><b>Eat-Code-Sleep-Repeat</b></h4>
-        <p>This was our motto for 9 weeks and it has changed us to keep this motto for life. We have spent 450 hours to code and 260 hours of that were remote thanks to Covid-19. It was fascinated to be able to built this project from stratch in just two weeks. It was fascinated to see how remote teams can be working with pair programming and how much can be done with the distributed version-control systems like git. </p>
-      <%= link_to 'CONTACT', contact_path, target: 'blank', class: 'btn btn-lg-rounded-primary w-100 mt-2' %>
+        <h4 style="color: #0DBF6C"><b><%= t 'me-head' %></b></h4>
+        <p> <%= t 'me-head-p' %> </p>
+        <a class="btn btn-lg-rounded-primary w-100 mt-2" href="<%= contact_path %>"> <%= t 'nav-contact' %></a>
       </div>
     </div>
   </div>
