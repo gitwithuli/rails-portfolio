@@ -7,11 +7,11 @@
   <div class="collapse navbar-collapse justify-content-end w-100" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <%= link_to 'Türkçe', root_path(locale: :tr), class: 'nav-link-min nav-link-one' %>
-      </li>
-      <li class="nav-item">
-        <%= link_to 'English', root_path(locale: :en), class: 'nav-link-min nav-link-one' %>
-      </li>
+        <% if I18n.locale == I18n.default_locale %>
+          <a class="nav-link-min nav-link-one" href="<%= root_path(locale: :tr) %>"> <%= t 'l-name' %><img src="https://res.cloudinary.com/dbjtqhjxi/image/upload/v1594309977/iconfinder_263_Ensign_Flag_Nation_turkey_2634440_1_ir6wn4.png" style="height:25px; padding-left: 4px;"></a>
+        <% else %>
+          <a class="nav-link-min nav-link-one" href="<%= root_path(locale: :en) %>"> <%= t 'l-name' %><img src="https://res.cloudinary.com/dbjtqhjxi/image/upload/v1594310249/iconfinder_139-_flag-usa-lesbian_3011467_y9xlip.png" style="height:35px; padding-left: 2px;"> </a>
+        <%end%>
       <li class="nav-item">
           <a class="nav-link-min nav-link-one" href="<%= about_path %>"> <%= t 'nav-about' %></a>
       </li>

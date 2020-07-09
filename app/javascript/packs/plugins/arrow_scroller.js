@@ -2,9 +2,9 @@
 
 const arrow_scroller = () => {
   $("#home-arrow").click(function() {
-      $('html,body').animate({
+      $('body').animate({
           scrollTop: $("#projects").offset().top},
-          'slow');
+          'smooth');
   });
 }
 
