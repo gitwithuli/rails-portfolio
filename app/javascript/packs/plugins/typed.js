@@ -7,11 +7,11 @@ const typed = new Typed('#main-typed', {
           'I love solving problems.',
           'I love technology!',
           ],
-  typeSpeed: 40,
+  typeSpeed: 50,
   smartBackspace: true,
   startDelay: 1500,
-  backDelay: 200,
-  backSpeed: 40,
+  backDelay: 100,
+  backSpeed: 50,
   loop: true
 });
 
