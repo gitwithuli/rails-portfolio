@@ -9,8 +9,8 @@ const typed = new Typed('#main-typed', {
           ],
   typeSpeed: 40,
   smartBackspace: true,
-  startDelay: 5000,
-  backDelay: 700,
+  startDelay: 1500,
+  backDelay: 200,
   backSpeed: 40,
   loop: true
 });
