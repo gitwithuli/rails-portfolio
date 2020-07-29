@@ -1,8 +1,16 @@
+  <div class="wrapper" data-controller="homepage">
+
   <div class="bck-light-grey p-3 bg-success">
     <div class="container overlay h-100 w-100 text-center mt-3 mt-lg-5 pt-5", id="homepage-main-greet">
-      <h1 class='mb-4 text-white pt-5' ><b><%= t 'greet' %></b></h1>
+      <h1 class='mb-4 text-white pt-5' ><b><%= t('greet', href: "lewagon.com") %></b></h1>
       <p class="mb-4 text-white pt-3 pb-1"><%= t 'greet-p' %></p>
-      <p class="mb-4 text-white pb-4" id='main-typed'></p>
+      <p
+        class="mb-4 text-white pb-4"
+        id='main-typed'
+        data-target="homepage.typed"
+        data-translation="<%= t 'typed-tr' %>"
+      >
+      </p>
       <br>
       <a data-scroll class="fas fa-chevron-down bounce mt-5" id="home-arrow"></a>
       </div>
@@ -38,4 +46,5 @@
         <a class="btn btn-lg-rounded-primary mb-2" href="<%= cocktail_path %>"> <%= t 'see-case' %></a>
       </div>
     </div>
+  </div>
   </div>
