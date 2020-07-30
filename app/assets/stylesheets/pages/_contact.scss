@@ -8,3 +8,11 @@
   font-size: 50px;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 768px) {
+  .top-container{
+
+    margin-bottom: 250px !important;
+
+   }
+}
