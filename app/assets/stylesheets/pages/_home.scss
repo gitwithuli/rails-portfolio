@@ -48,3 +48,16 @@ p{
   height: auto;
   max-width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  #homepage-main-greet{
+    h1{
+      font-size: 50px;
+    }
+
+    p{
+      font-size: 20px;
+    }
+
+  }
+}
