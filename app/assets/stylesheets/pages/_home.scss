@@ -44,9 +44,28 @@ p{
 }
 }
 
-.info-card-img {
-  height: auto;
-  max-width: 100%;
+
+
+@media only screen and (max-width: 991px) {
+  #homepage-main-greet{
+    h1{
+      font-size: 70px;
+    }
+
+    p{
+      font-size: 30px;
+    }
+
+  }
+  .info-card-img {
+    max-width: 70vh;
+
+  }
+
+  .info-card {
+  text-align: center;
+
+  }
 }
 
 @media only screen and (max-width: 768px) {
