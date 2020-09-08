@@ -24,6 +24,12 @@ en:
   project-case-herha-p1: "The reason I started this project was to improve myself with coding blockchain based apps. After the bootcamp I wanted to keep on coding every day and also dig into something I really wanted to learn for a long time. It was a really informative project and more will be coming soon!"
   project-case-herha-head: "It's important to stop thinking and start doing."
   project-case-herha-p2: "One of the greatest lessons I learned at my time during LeWagon’s bootcamp was that you have to stop thinking and start doing at some point. No one knows exactly how software will turn out and work until you get started. It gets easier as you move forward."
+  project-case-blockchain: "Simple cryptocurrency and blockchain written in JS from stratch."
+  project-case-blockchain-info: "It's time for people to become their own banks. Blockchain at your service."
+  project-case-blockchain-p1: "The world of finance had changed in 2009 when Satoshi Nakamoto has invented bitcoin and blockchain. Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.
+A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. Each block in the chain contains a number of transactions, and every time a new transaction occurs on the blockchain, a record of that transaction is added to every participant’s ledger. The decentralized database managed by multiple participants is known as Distributed Ledger Technology (DLT). It was an amazing learning experience to create one from scratch with TDD(Test Driven Development). "
+  project-case-blockchain-head: "Bitcoin, bitcoin, bitcoin."
+  project-case-blockchain-p2: "Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. It's unstoppable, it's here to stay and it's amazing to learn about how to program and use it."
   me-name: "Ulas Savkin"
   me-intro: "I’m young, passionate about self-education and self-improvement. I’m very interested in decentralized systems, decentralized money and open-source projects."
   me-gif: "Code"
