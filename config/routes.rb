@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/hood', to: 'pages#hood'
   get '/cocktail', to: 'pages#cocktail'
   get '/herha_adoption', to: 'pages#herha_adoption'
+  get '/blockchain', to: 'pages#blockchain'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   end
 end
